@@ -34,7 +34,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build:app": "react-scripts build",
+    "build": "react-scripts build",
     "start:stg": "env-cmd -f ./env/.env.staging npm run start",
     "build:stg": "env-cmd -f ./env/.env.staging npm run build:app && node src/ServiceWorker/build.js",
     "start:prd": "env-cmd -f ./env/.env.production npm run start",
