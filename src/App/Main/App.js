@@ -9,8 +9,8 @@ import withStore from "../../Components/Unstated/withStore";
 import MainStore from "../../Store/mainStore";
 
 const App = ({mainStore: {init,state: {mainLoading}}}) => {
-    useEffect(async ()=> {
-        await init();
+    useEffect( ()=> {
+        init();
     },[])
     return mainLoading ? (
       <div>loading....</div>
