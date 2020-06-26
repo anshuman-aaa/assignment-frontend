@@ -1,0 +1,64 @@
+@import "./mixins"
+@import "./colors"
+@import "./typography"
+
+.newVersionPrompt
+  @include overlay
+  position: fixed
+  z-index: 99999999999999999999999999999
+  background: rgba(0, 0, 0, 0.5)
+  @include v-flex
+  justify-content: flex-end
+  animation: fadeIn 500ms ease forwards
+
+  .content
+    background: white
+    width: 100%
+    padding: 10% 5%
+    border-top-left-radius: 1em
+    border-top-right-radius: 1em
+    box-shadow: 0 0 1em rgba(0, 0, 0, 0.25)
+    animation: slideIn 300ms ease forwards
+    @include v-flex
+
+    h1
+      font-size: $l4
+      width: 100%
+      text-align: center
+
+    p
+      font-size: $l5
+      font-weight: normal
+      padding: 1em 0 2em
+      width: 100%
+      text-align: center
+      line-height: 1.33
+
+    button
+      padding: 0.66em 1.5em
+      border: none
+      font-weight: normal
+      font-size: $l55
+      border-radius: 0.25em
+      cursor: pointer
+      letter-spacing: 0.05em
+      transition: all 300ms ease
+      @include h-flex
+      display: inline-flex
+      position: relative
+      background: #333333
+      color: white
+
+
+@keyframes fadeIn
+  from
+    opacity: 0
+  to
+    opacity: 1
+
+@keyframes slideIn
+  from
+    transform: translate(0, 100%)
+  to
+    transform: translate(0, 0)
+

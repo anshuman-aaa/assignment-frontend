@@ -1,0 +1,52 @@
+@import "typography"
+@import "mixins"
+@import "colors"
+@import "newVersionPrompt"
+@import "config"
+
+*
+  margin: 0
+  padding: 0
+  box-sizing: border-box
+  outline: none
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  text-decoration: none
+  -webkit-tap-highlight-color: transparent
+  user-select: none
+
+
+.App
+  //height: vh(100)
+  ////to compensate disabled scrolling of body
+  overflow: auto
+  width: 100%
+  position: relative
+.MainApp
+  margin-top: 35vh
+  margin-left: 35vw
+button
+  cursor: pointer
+
+input
+  &[type=number]::-webkit-inner-spin-button,
+  &[type=number]::-webkit-outer-spin-button
+    -webkit-appearance: none
+    margin: 0
+
+a
+  color: inherit
+
+.text-input3
+  box-sizing: border-box
+  color: black
+  width: 100%
+  padding: 14px 25px
+  border: 2px solid white
+  border-radius: 12px
+  background: antiquewhite
+  //outline: none
+  margin: 2% 0
+  font-size: 1em
+  &::placeholder
+    color: black
