@@ -12,7 +12,7 @@
     "@testing-library/user-event": "^7.1.2",
     "apollo-boost": "^0.4.7",
     "apollo-client": "^2.6.8",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "env-cmd": "^10.0.1",
     "get": "^1.4.0",
     "get-value": "^3.0.1",
