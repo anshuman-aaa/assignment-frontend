@@ -3,15 +3,6 @@ const headers = {
   "Content-Type": "application/json"
 };
 
-export const getFacility = () =>
-HTTP.get("api/fac")
-    .then(res => {
-      return res.data;
-    })
-    .catch(error => {
-      return;
-    });
-
 export const loginUser = data =>
   HTTP.post("users/login", JSON.stringify(data), {
     headers: headers
@@ -42,12 +33,12 @@ export const registerUser = data =>
       return "error";
     });
 
-export const bookUser = data =>
-  HTTP.post("api/book", JSON.stringify(data), {
+export const logoutUser = data =>
+  HTTP.post("user/logout", JSON.stringify(data), {
     headers: headers
   })
     .then(res => {
-      if (res.status === 200) {
+      if (res.status === 201) {
         return res.data;
       }else {
           return "error";

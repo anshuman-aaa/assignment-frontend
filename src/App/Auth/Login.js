@@ -59,6 +59,8 @@ const Login = ({history}) => {
                   />
                 </fieldset>
 
+                
+                <div className={"buttonContainer"}>
                 <button
                   className="btn btn-lg btn-primary pull-xs-right"
                   type="submit"
@@ -66,6 +68,9 @@ const Login = ({history}) => {
                 >
                   Sign in
                 </button>
+
+                <Link to="/">Signup Here</Link>
+                </div>
               </fieldset>
             </form>
           </div>

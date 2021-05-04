@@ -1,0 +1,89 @@
+[{
+  "_id": {
+    "$oid": "5ef4e88fd7961036ea5c6892"
+  },
+  "title": "Swimming Pool",
+  "img": "https://images.unsplash.com/photo-1536745511564-a5fa6e596e7b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1027&q=80",
+  "open": "10",
+  "close": "20",
+  "slots": "[]",
+  "booking": [
+    {
+      "email": "a@a.com",
+      "slot": "10-12"
+    },
+    {
+      "email": "a@a.com",
+      "slot": "10-12"
+    },
+    {
+      "email": "a@a.com",
+      "slot": "10-12"
+    },
+    {
+      "email": "a@a.com",
+      "slot": "12-14"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ef4e89dd7961036ea5c6893"
+  },
+  "title": "Tennis Court",
+  "img": "https://images.unsplash.com/flagged/photo-1576972405668-2d020a01cbfa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1953&q=80",
+  "open": "10",
+  "close": "20",
+  "slots": "[]",
+  "__v": 0,
+  "booking": [
+    {
+      "email": "a@a.com",
+      "slot": "10-12"
+    },
+    {
+      "email": "a@a.com",
+      "slot": "12-14"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "5ef4e8a4d7961036ea5c6894"
+  },
+  "title": "Badminton Court",
+  "img": "https://images.unsplash.com/photo-1521537634581-0dced2fee2ef?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+  "open": "10",
+  "close": "20",
+  "slots": "[]",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ef4f64f56ac4a37579647c3"
+  },
+  "title": "Badminton Court",
+  "img": "https://unsplash.com/photos/Z4Sxy1_3wdY",
+  "open": "10",
+  "close": "20",
+  "slots": "[]",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ef4f65256ac4a37579647c4"
+  },
+  "title": "Badminton Court",
+  "img": "https://unsplash.com/photos/Z4Sxy1_3wdY",
+  "open": "10",
+  "close": "20",
+  "slots": "[]",
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5ef4f65456ac4a37579647c5"
+  },
+  "title": "Badminton Court",
+  "img": "https://unsplash.com/photos/Z4Sxy1_3wdY",
+  "open": "10",
+  "close": "20",
+  "slots": "[]",
+  "__v": 0
+}]

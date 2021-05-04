@@ -69,13 +69,16 @@ const Register = ({history}) => {
                     {...bindpassword}
                   />
                 </fieldset>
-
+              <div className={"buttonContainer"}>
                 <button
                   className="btn btn-lg btn-primary pull-xs-right"
                   type="submit"
                 >
                   Sign up
                 </button>
+
+                <Link to="/login">Login Here</Link>
+                </div>
               </fieldset>
             </form>
           </div>
